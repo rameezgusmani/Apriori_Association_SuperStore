@@ -1,0 +1,128 @@
+Apriori
+=======
+
+Minimum support: 0.1 (463 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 48
+
+Size of set of large itemsets L(2): 530
+
+Size of set of large itemsets L(3): 2120
+
+Size of set of large itemsets L(4): 3105
+
+Size of set of large itemsets L(5): 1744
+
+Size of set of large itemsets L(6): 318
+
+Size of set of large itemsets L(7): 11
+
+Best rules found:
+
+  1. biscuits=t frozen foods=t pet foods=t milk-cream=t vegetables=t 516 ==> bread and cake=t 475    <conf:(0.92)> lift:(1.28) lev:(0.02) [103] conv:(3.44)
+  2. baking needs=t biscuits=t milk-cream=t margarine=t fruit=t vegetables=t 505 ==> bread and cake=t 464    <conf:(0.92)> lift:(1.28) lev:(0.02) [100] conv:(3.37)
+  3. biscuits=t frozen foods=t milk-cream=t margarine=t vegetables=t 585 ==> bread and cake=t 537    <conf:(0.92)> lift:(1.28) lev:(0.03) [115] conv:(3.35)
+  4. biscuits=t canned vegetables=t frozen foods=t fruit=t vegetables=t 536 ==> bread and cake=t 492    <conf:(0.92)> lift:(1.28) lev:(0.02) [106] conv:(3.34)
+  5. baking needs=t frozen foods=t milk-cream=t margarine=t fruit=t vegetables=t 517 ==> bread and cake=t 474    <conf:(0.92)> lift:(1.27) lev:(0.02) [101] conv:(3.29)
+  6. biscuits=t frozen foods=t pet foods=t milk-cream=t fruit=t 511 ==> bread and cake=t 468    <conf:(0.92)> lift:(1.27) lev:(0.02) [100] conv:(3.26)
+  7. biscuits=t frozen foods=t tissues-paper prd=t milk-cream=t vegetables=t 575 ==> bread and cake=t 526    <conf:(0.91)> lift:(1.27) lev:(0.02) [112] conv:(3.22)
+  8. biscuits=t frozen foods=t beef=t fruit=t vegetables=t 536 ==> bread and cake=t 490    <conf:(0.91)> lift:(1.27) lev:(0.02) [104] conv:(3.2)
+  9. baking needs=t biscuits=t frozen foods=t cheese=t fruit=t 538 ==> bread and cake=t 491    <conf:(0.91)> lift:(1.27) lev:(0.02) [103] conv:(3.14)
+ 10. biscuits=t frozen foods=t milk-cream=t margarine=t fruit=t 592 ==> bread and cake=t 540    <conf:(0.91)> lift:(1.27) lev:(0.02) [113] conv:(3.13)
+ 11. biscuits=t frozen foods=t cheese=t milk-cream=t fruit=t 512 ==> bread and cake=t 467    <conf:(0.91)> lift:(1.27) lev:(0.02) [98] conv:(3.12)
+ 12. biscuits=t frozen foods=t pet foods=t fruit=t vegetables=t 567 ==> bread and cake=t 517    <conf:(0.91)> lift:(1.27) lev:(0.02) [108] conv:(3.12)
+ 13. baking needs=t biscuits=t frozen foods=t party snack foods=t fruit=t vegetables=t 544 ==> bread and cake=t 496    <conf:(0.91)> lift:(1.27) lev:(0.02) [104] conv:(3.11)
+ 14. biscuits=t tissues-paper prd=t beef=t vegetables=t 532 ==> bread and cake=t 485    <conf:(0.91)> lift:(1.27) lev:(0.02) [102] conv:(3.11)
+ 15. juice-sat-cord-ms=t biscuits=t cheese=t fruit=t vegetables=t 519 ==> bread and cake=t 473    <conf:(0.91)> lift:(1.27) lev:(0.02) [99] conv:(3.1)
+ 16. baking needs=t frozen foods=t milk-cream=t margarine=t fruit=t 609 ==> bread and cake=t 555    <conf:(0.91)> lift:(1.27) lev:(0.03) [116] conv:(3.1)
+ 17. biscuits=t breakfast food=t frozen foods=t fruit=t vegetables=t 573 ==> bread and cake=t 522    <conf:(0.91)> lift:(1.27) lev:(0.02) [109] conv:(3.09)
+ 18. baking needs=t biscuits=t canned vegetables=t fruit=t vegetables=t 515 ==> bread and cake=t 469    <conf:(0.91)> lift:(1.27) lev:(0.02) [98] conv:(3.07)
+ 19. baking needs=t frozen foods=t pet foods=t milk-cream=t fruit=t 514 ==> bread and cake=t 468    <conf:(0.91)> lift:(1.27) lev:(0.02) [98] conv:(3.07)
+ 20. biscuits=t frozen foods=t cheese=t fruit=t vegetables=t 579 ==> bread and cake=t 527    <conf:(0.91)> lift:(1.26) lev:(0.02) [110] conv:(3.06)
+ 21. biscuits=t frozen foods=t party snack foods=t milk-cream=t fruit=t vegetables=t 512 ==> bread and cake=t 466    <conf:(0.91)> lift:(1.26) lev:(0.02) [97] conv:(3.05)
+ 22. baking needs=t biscuits=t frozen foods=t margarine=t fruit=t vegetables=t 543 ==> bread and cake=t 494    <conf:(0.91)> lift:(1.26) lev:(0.02) [103] conv:(3.04)
+ 23. biscuits=t canned fruit=t frozen foods=t fruit=t 529 ==> bread and cake=t 481    <conf:(0.91)> lift:(1.26) lev:(0.02) [100] conv:(3.03)
+ 24. biscuits=t milk-cream=t margarine=t fruit=t vegetables=t 628 ==> bread and cake=t 571    <conf:(0.91)> lift:(1.26) lev:(0.03) [119] conv:(3.04)
+ 25. biscuits=t canned fruit=t fruit=t vegetables=t 550 ==> bread and cake=t 500    <conf:(0.91)> lift:(1.26) lev:(0.02) [104] conv:(3.02)
+ 26. baking needs=t biscuits=t frozen foods=t tissues-paper prd=t fruit=t vegetables=t 539 ==> bread and cake=t 490    <conf:(0.91)> lift:(1.26) lev:(0.02) [102] conv:(3.02)
+ 27. baking needs=t biscuits=t frozen foods=t milk-cream=t fruit=t vegetables=t 593 ==> bread and cake=t 539    <conf:(0.91)> lift:(1.26) lev:(0.02) [112] conv:(3.02)
+ 28. biscuits=t frozen foods=t fruit=t vegetables=t department137=t 515 ==> bread and cake=t 468    <conf:(0.91)> lift:(1.26) lev:(0.02) [97] conv:(3.01)
+ 29. baking needs=t biscuits=t milk-cream=t margarine=t vegetables=t 600 ==> bread and cake=t 545    <conf:(0.91)> lift:(1.26) lev:(0.02) [113] conv:(3)
+ 30. biscuits=t frozen foods=t margarine=t fruit=t vegetables=t 663 ==> bread and cake=t 602    <conf:(0.91)> lift:(1.26) lev:(0.03) [124] conv:(3)
+ 31. biscuits=t pet foods=t milk-cream=t fruit=t vegetables=t 542 ==> bread and cake=t 492    <conf:(0.91)> lift:(1.26) lev:(0.02) [101] conv:(2.98)
+ 32. biscuits=t canned vegetables=t milk-cream=t fruit=t 585 ==> bread and cake=t 531    <conf:(0.91)> lift:(1.26) lev:(0.02) [109] conv:(2.98)
+ 33. biscuits=t party snack foods=t cheese=t fruit=t vegetables=t 518 ==> bread and cake=t 470    <conf:(0.91)> lift:(1.26) lev:(0.02) [97] conv:(2.96)
+ 34. juice-sat-cord-ms=t biscuits=t frozen foods=t party snack foods=t fruit=t vegetables=t 518 ==> bread and cake=t 470    <conf:(0.91)> lift:(1.26) lev:(0.02) [97] conv:(2.96)
+ 35. baking needs=t juice-sat-cord-ms=t biscuits=t frozen foods=t fruit=t vegetables=t 539 ==> bread and cake=t 489    <conf:(0.91)> lift:(1.26) lev:(0.02) [101] conv:(2.96)
+ 36. tissues-paper prd=t milk-cream=t beef=t vegetables=t 549 ==> bread and cake=t 498    <conf:(0.91)> lift:(1.26) lev:(0.02) [102] conv:(2.96)
+ 37. biscuits=t cheese=t margarine=t fruit=t vegetables=t 516 ==> bread and cake=t 468    <conf:(0.91)> lift:(1.26) lev:(0.02) [96] conv:(2.95)
+ 38. pet foods=t milk-cream=t margarine=t fruit=t 569 ==> bread and cake=t 516    <conf:(0.91)> lift:(1.26) lev:(0.02) [106] conv:(2.95)
+ 39. baking needs=t frozen foods=t cheese=t fruit=t vegetables=t 567 ==> bread and cake=t 514    <conf:(0.91)> lift:(1.26) lev:(0.02) [105] conv:(2.94)
+ 40. baking needs=t biscuits=t milk-cream=t margarine=t fruit=t 609 ==> bread and cake=t 552    <conf:(0.91)> lift:(1.26) lev:(0.02) [113] conv:(2.94)
+ 41. biscuits=t frozen foods=t small goods=t 566 ==> bread and cake=t 513    <conf:(0.91)> lift:(1.26) lev:(0.02) [105] conv:(2.94)
+ 42. baking needs=t frozen foods=t beef=t fruit=t vegetables=t 543 ==> bread and cake=t 492    <conf:(0.91)> lift:(1.26) lev:(0.02) [101] conv:(2.93)
+ 43. frozen foods=t milk-cream=t beef=t fruit=t vegetables=t 542 ==> bread and cake=t 491    <conf:(0.91)> lift:(1.26) lev:(0.02) [100] conv:(2.92)
+ 44. biscuits=t milk-cream=t beef=t fruit=t 562 ==> bread and cake=t 509    <conf:(0.91)> lift:(1.26) lev:(0.02) [104] conv:(2.92)
+ 45. biscuits=t party snack foods=t margarine=t fruit=t vegetables=t 562 ==> bread and cake=t 509    <conf:(0.91)> lift:(1.26) lev:(0.02) [104] conv:(2.92)
+ 46. canned fruit=t tissues-paper prd=t milk-cream=t 519 ==> bread and cake=t 470    <conf:(0.91)> lift:(1.26) lev:(0.02) [96] conv:(2.91)
+ 47. baking needs=t biscuits=t frozen foods=t tissues-paper prd=t milk-cream=t 602 ==> bread and cake=t 545    <conf:(0.91)> lift:(1.26) lev:(0.02) [111] conv:(2.91)
+ 48. biscuits=t frozen foods=t milk-cream=t fruit=t vegetables=t 760 ==> bread and cake=t 688    <conf:(0.91)> lift:(1.26) lev:(0.03) [141] conv:(2.92)
+ 49. biscuits=t frozen foods=t party snack foods=t fruit=t vegetables=t 707 ==> bread and cake=t 640    <conf:(0.91)> lift:(1.26) lev:(0.03) [131] conv:(2.91)
+ 50. juice-sat-cord-ms=t biscuits=t frozen foods=t tissues-paper prd=t fruit=t 559 ==> bread and cake=t 506    <conf:(0.91)> lift:(1.26) lev:(0.02) [103] conv:(2.9)
+ 51. biscuits=t canned vegetables=t party snack foods=t fruit=t 537 ==> bread and cake=t 486    <conf:(0.91)> lift:(1.26) lev:(0.02) [99] conv:(2.89)
+ 52. baking needs=t cheese=t margarine=t fruit=t vegetables=t 537 ==> bread and cake=t 486    <conf:(0.91)> lift:(1.26) lev:(0.02) [99] conv:(2.89)
+ 53. baking needs=t pet foods=t margarine=t fruit=t 589 ==> bread and cake=t 533    <conf:(0.9)> lift:(1.26) lev:(0.02) [109] conv:(2.9)
+ 54. biscuits=t milk-cream=t beef=t vegetables=t 589 ==> bread and cake=t 533    <conf:(0.9)> lift:(1.26) lev:(0.02) [109] conv:(2.9)
+ 55. biscuits=t sauces-gravy-pkle=t margarine=t fruit=t vegetables=t 536 ==> bread and cake=t 485    <conf:(0.9)> lift:(1.26) lev:(0.02) [99] conv:(2.89)
+ 56. juice-sat-cord-ms=t biscuits=t margarine=t fruit=t vegetables=t 567 ==> bread and cake=t 513    <conf:(0.9)> lift:(1.26) lev:(0.02) [104] conv:(2.89)
+ 57. baking needs=t biscuits=t cheese=t fruit=t vegetables=t 577 ==> bread and cake=t 522    <conf:(0.9)> lift:(1.26) lev:(0.02) [106] conv:(2.89)
+ 58. juice-sat-cord-ms=t biscuits=t tissues-paper prd=t fruit=t vegetables=t 566 ==> bread and cake=t 512    <conf:(0.9)> lift:(1.26) lev:(0.02) [104] conv:(2.88)
+ 59. baking needs=t laundry needs=t milk-cream=t fruit=t 563 ==> bread and cake=t 509    <conf:(0.9)> lift:(1.26) lev:(0.02) [103] conv:(2.87)
+ 60. baking needs=t biscuits=t sauces-gravy-pkle=t frozen foods=t fruit=t vegetables=t 521 ==> bread and cake=t 471    <conf:(0.9)> lift:(1.26) lev:(0.02) [96] conv:(2.86)
+ 61. baking needs=t frozen foods=t party snack foods=t milk-cream=t fruit=t 583 ==> bread and cake=t 527    <conf:(0.9)> lift:(1.26) lev:(0.02) [107] conv:(2.87)
+ 62. biscuits=t canned vegetables=t fruit=t vegetables=t 666 ==> bread and cake=t 602    <conf:(0.9)> lift:(1.26) lev:(0.03) [122] conv:(2.87)
+ 63. biscuits=t tissues-paper prd=t cheese=t milk-cream=t 551 ==> bread and cake=t 498    <conf:(0.9)> lift:(1.26) lev:(0.02) [101] conv:(2.86)
+ 64. baking needs=t milk-cream=t beef=t fruit=t vegetables=t 539 ==> bread and cake=t 487    <conf:(0.9)> lift:(1.26) lev:(0.02) [99] conv:(2.85)
+ 65. baking needs=t biscuits=t frozen foods=t milk-cream=t margarine=t 631 ==> bread and cake=t 570    <conf:(0.9)> lift:(1.26) lev:(0.03) [115] conv:(2.85)
+ 66. biscuits=t frozen foods=t cheese=t fruit=t 692 ==> bread and cake=t 625    <conf:(0.9)> lift:(1.25) lev:(0.03) [126] conv:(2.85)
+ 67. biscuits=t milk-cream=t small goods=t 537 ==> bread and cake=t 485    <conf:(0.9)> lift:(1.25) lev:(0.02) [98] conv:(2.84)
+ 68. baking needs=t biscuits=t beef=t fruit=t vegetables=t 516 ==> bread and cake=t 466    <conf:(0.9)> lift:(1.25) lev:(0.02) [94] conv:(2.84)
+ 69. canned vegetables=t frozen foods=t party snack foods=t fruit=t 526 ==> bread and cake=t 475    <conf:(0.9)> lift:(1.25) lev:(0.02) [96] conv:(2.84)
+ 70. bread and cake=t baking needs=t frozen foods=t beef=t fruit=t 545 ==> vegetables=t 492    <conf:(0.9)> lift:(1.41) lev:(0.03) [143] conv:(3.63)
+ 71. tissues-paper prd=t milk-cream=t beef=t fruit=t 524 ==> bread and cake=t 473    <conf:(0.9)> lift:(1.25) lev:(0.02) [95] conv:(2.82)
+ 72. biscuits=t milk-cream=t margarine=t vegetables=t 750 ==> bread and cake=t 677    <conf:(0.9)> lift:(1.25) lev:(0.03) [137] conv:(2.84)
+ 73. baking needs=t juice-sat-cord-ms=t biscuits=t party snack foods=t fruit=t 575 ==> bread and cake=t 519    <conf:(0.9)> lift:(1.25) lev:(0.02) [105] conv:(2.83)
+ 74. biscuits=t frozen foods=t tissues-paper prd=t milk-cream=t fruit=t 595 ==> bread and cake=t 537    <conf:(0.9)> lift:(1.25) lev:(0.02) [108] conv:(2.83)
+ 75. baking needs=t frozen foods=t tissues-paper prd=t milk-cream=t fruit=t vegetables=t 522 ==> bread and cake=t 471    <conf:(0.9)> lift:(1.25) lev:(0.02) [95] conv:(2.81)
+ 76. baking needs=t biscuits=t frozen foods=t milk-cream=t fruit=t 715 ==> bread and cake=t 645    <conf:(0.9)> lift:(1.25) lev:(0.03) [130] conv:(2.82)
+ 77. baking needs=t pet foods=t milk-cream=t margarine=t 592 ==> bread and cake=t 534    <conf:(0.9)> lift:(1.25) lev:(0.02) [107] conv:(2.81)
+ 78. biscuits=t frozen foods=t tissues-paper prd=t fruit=t vegetables=t 663 ==> bread and cake=t 598    <conf:(0.9)> lift:(1.25) lev:(0.03) [120] conv:(2.82)
+ 79. baking needs=t tissues-paper prd=t milk-cream=t beef=t 520 ==> bread and cake=t 469    <conf:(0.9)> lift:(1.25) lev:(0.02) [94] conv:(2.8)
+ 80. biscuits=t frozen foods=t tissues-paper prd=t milk-cream=t margarine=t 518 ==> bread and cake=t 467    <conf:(0.9)> lift:(1.25) lev:(0.02) [94] conv:(2.79)
+ 81. frozen foods=t party snack foods=t cheese=t fruit=t 599 ==> bread and cake=t 540    <conf:(0.9)> lift:(1.25) lev:(0.02) [108] conv:(2.8)
+ 82. biscuits=t breakfast food=t milk-cream=t fruit=t vegetables=t 527 ==> bread and cake=t 475    <conf:(0.9)> lift:(1.25) lev:(0.02) [95] conv:(2.79)
+ 83. baking needs=t laundry needs=t tissues-paper prd=t milk-cream=t 547 ==> bread and cake=t 493    <conf:(0.9)> lift:(1.25) lev:(0.02) [99] conv:(2.79)
+ 84. biscuits=t frozen foods=t milk-cream=t beef=t 587 ==> bread and cake=t 529    <conf:(0.9)> lift:(1.25) lev:(0.02) [106] conv:(2.79)
+ 85. juice-sat-cord-ms=t biscuits=t frozen foods=t fruit=t vegetables=t 698 ==> bread and cake=t 629    <conf:(0.9)> lift:(1.25) lev:(0.03) [126] conv:(2.8)
+ 86. baking needs=t biscuits=t frozen foods=t pet foods=t fruit=t 526 ==> bread and cake=t 474    <conf:(0.9)> lift:(1.25) lev:(0.02) [95] conv:(2.78)
+ 87. baking needs=t biscuits=t milk-cream=t beef=t 556 ==> bread and cake=t 501    <conf:(0.9)> lift:(1.25) lev:(0.02) [100] conv:(2.78)
+ 88. pet foods=t tissues-paper prd=t margarine=t fruit=t 525 ==> bread and cake=t 473    <conf:(0.9)> lift:(1.25) lev:(0.02) [95] conv:(2.78)
+ 89. baking needs=t biscuits=t party snack foods=t margarine=t fruit=t 535 ==> bread and cake=t 482    <conf:(0.9)> lift:(1.25) lev:(0.02) [96] conv:(2.78)
+ 90. frozen foods=t pet foods=t margarine=t fruit=t 555 ==> bread and cake=t 500    <conf:(0.9)> lift:(1.25) lev:(0.02) [100] conv:(2.78)
+ 91. baking needs=t milk-cream=t margarine=t fruit=t vegetables=t 686 ==> bread and cake=t 618    <conf:(0.9)> lift:(1.25) lev:(0.03) [124] conv:(2.79)
+ 92. baking needs=t canned vegetables=t frozen foods=t fruit=t vegetables=t 524 ==> bread and cake=t 472    <conf:(0.9)> lift:(1.25) lev:(0.02) [94] conv:(2.77)
+ 93. pet foods=t milk-cream=t margarine=t vegetables=t 584 ==> bread and cake=t 526    <conf:(0.9)> lift:(1.25) lev:(0.02) [105] conv:(2.77)
+ 94. biscuits=t canned fruit=t milk-cream=t 612 ==> bread and cake=t 551    <conf:(0.9)> lift:(1.25) lev:(0.02) [110] conv:(2.77)
+ 95. biscuits=t canned vegetables=t frozen foods=t fruit=t 642 ==> bread and cake=t 578    <conf:(0.9)> lift:(1.25) lev:(0.03) [115] conv:(2.77)
+ 96. baking needs=t frozen foods=t milk-cream=t beef=t vegetables=t 521 ==> bread and cake=t 469    <conf:(0.9)> lift:(1.25) lev:(0.02) [94] conv:(2.76)
+ 97. biscuits=t frozen foods=t tissues-paper prd=t margarine=t vegetables=t 551 ==> bread and cake=t 496    <conf:(0.9)> lift:(1.25) lev:(0.02) [99] conv:(2.76)
+ 98. baking needs=t sauces-gravy-pkle=t margarine=t fruit=t vegetables=t 561 ==> bread and cake=t 505    <conf:(0.9)> lift:(1.25) lev:(0.02) [101] conv:(2.76)
+ 99. baking needs=t juice-sat-cord-ms=t margarine=t fruit=t vegetables=t 591 ==> bread and cake=t 532    <conf:(0.9)> lift:(1.25) lev:(0.02) [106] conv:(2.76)
+100. baking needs=t biscuits=t margarine=t fruit=t vegetables=t 680 ==> bread and cake=t 612    <conf:(0.9)> lift:(1.25) lev:(0.03) [122] conv:(2.76)
+101. juice-sat-cord-ms=t party snack foods=t cheese=t fruit=t 560 ==> bread and cake=t 504    <conf:(0.9)> lift:(1.25) lev:(0.02) [100] conv:(2.75)
+102. biscuits=t cheese=t milk-cream=t fruit=t vegetables=t 550 ==> bread and cake=t 495    <conf:(0.9)> lift:(1.25) lev:(0.02) [99] conv:(2.75)
+
